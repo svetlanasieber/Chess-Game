@@ -1,30 +1,3 @@
-/* Write classes which represent the figures in a game of chess
-(Pawn, Bishop, Bishop, Rook, Queen, King), played on the console.
-Each figure should have a symbol (single character which identifies
-the figure), a field to represent color (black/white), a position
-on the chessboard (e.g. G3), and the methods:
-getAvailableMoves(otherFigures) - gets a parameter which represents
-    all other figures on the board (but doesn't allow changing those
-    other figures in any way - ensure that through the type of the
-    parameter) and returns an array of positions to which this figure
-    can make a valid move, based on its current position AND the positions
-    of the other figures
-move(newPosition, otherFigures) - changes the position of the figure
-    and returns true, if moving to that position is a valid move, or
-    returns false if it isn't a valid move
-NOTE: moving to another figure's position would only be valid if the
-other figure is of the opposite color AND the current figures movement
-pattern covers that figure's position
-The data types you use are up to you, as well as any additional
-methods/fields/operators you want to use. Write a program which tests
-out each figure's movements - make sure you first test the movements
-when there are no other figures, then with other figures of the same color,
-then with a mix of figures of different colors. The "tests" you do should
-be functions executed by the main function, instead of relying on the user
-to input data from the console (you could have that too, to do custom checks,
-but first all other tests should be executed - that way you'll have a set
-of test results which will show you if you broke something while adding code) */
-
 #include<iostream>
 #include "4-chess-figures.h"
 
